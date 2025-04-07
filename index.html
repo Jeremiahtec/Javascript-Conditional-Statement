@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- 10 -->
+     <!-- Weighing luggages in airport -->
+    <h1>1</h1>
+    <input id="weighinput" type="number">
+    <button onclick="weigh()">Weigh</button>
+    <div id="showweight"></div>
+
+    <!-- 8 -->
+     <!-- Calculating BMI -->
+    <h1>2</h1>
+    <p>Please enter your weight: <input type="number" id="weightinput" placeholder="Weight"><p>
+    <p>Please enter your height: <input type="number" id="heightinput" placeholder="Height"><p>
+        <button onclick="calcBMI()">Calculate BMI</button>
+        <div id="BMIanswer"></div>
+
+    <!-- 7 -->
+     <!-- Checking for correct answer no matter the case -->
+    <h1>3</h1>
+    <p>Enter the correct answer: <input type="text" id="correctInput"></p>
+    <p>Enter the student answer: <input type="text" id="studentInput"></p>   
+    <button onclick="checkCorrectAnswer()">Check answer</button>
+    <div id="showResult"></div>
+
+    <!-- 6 -->
+     <!-- Used for confirming the range of certain temperature -->
+    <h1>4</h1>
+    <p>Please input the temperature: <input type="text" id="tempInput"></p>
+    <button onclick="tempCheck()">Check temperature</button>
+    <div id="tempShow"></div>
+
+    <!-- 1 -->
+     <!-- Converts input to lowercase -->
+    <h1>5</h1>
+    <p>Please enter an item <input type="text" id="itemBox"> </p>
+    <button onclick="toLower()">Enter Item</button>
+    <div id="showItem">Item: </div>
+</body>
+</html>
