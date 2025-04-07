@@ -16,8 +16,8 @@ function weigh(){
 
 //2 
 function calcBMI(){
-    var weightOfBody = parseFloat(weightinput.value);
-    var heightOfBody = parseFloat(heightinput.value);
+    var weightOfBody = weightinput.value;
+    var heightOfBody = heightinput.value;
     var bodyMassIndex = weightOfBody / (heightOfBody * heightOfBody);
     if(weightOfBody == "" && heightOfBody == ""){
         alert("Please enter your weight and height.");
